@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="img/logo-img.jpg">
+    <link rel="stylesheet" href="css/styles.production.css">
+</head>
+<body>
+    <header class="page-header">
+        <!--change logo and give it a class-->
+    <a href="index.html">
+        <img src="img/logo-img.jpg" class="page-header__item" alt="portfolio logo" width="80" height="80">
+    </a>
+            <h1>Contact me</h1>
+            <!--change list in css-->
+    <nav class="main-navigation page-header__item">
+            
+        <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+                <a href="index.html" role="menuitem" class="navigation_item navigation">HOME</a>
+            </li>
+
+            <li role="presentation">
+                <a href="about.html" role="menuitem" class="navigation_item navigation">ABOUT ME</a>
+            </li>
+
+            <li role="presentation">
+                <a href="contact.html" role="menuitem" class="navigation_item navigation_item--active">CONTACT</a>
+            </li>
+
+            <li role="presentation">
+                <a href="work.html" role="menuitem" class="navigation_item">WORK</a>
+            </li>
+        </ul>
+    </nav>        
+             
+</header>
+        <main class="grid-contact">
+             <div class="grid-contact_item">
+                <h2>Contact me on:</h2>
+             <ul class="contact-list">
+                <li><a href="mailto:abc.2024@example.com">Email: abc.2024@example.com </a></li>
+                <li><a href="tel:+18769293374" aria-label="Call me at +1876 929 3374 ">Call: +18769293374 </a> </li>
+                <li><a href="skype:[username]?[action]">Skype</a> </li>
+                <li><a href="mailto:abc.2024@example.com">Contact now</a></li>
+             </ul>
+            </div>
+    <!--Form--------->
+             <div class="grid-contact_item">
+             <h2> Or let me contact you</h2>  
+             <p>   
+                <form action="/somewhere" method="post">
+                    <label for="email"> Share your email: </label>
+                    <br>
+                    <input id="email" type="text" placeholder="email" required class="input">
+                    <br>
+                    <label for="tel">Telephone: </label>
+                    <br>
+                    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="###-###-####" id="tel" class="input">
+                    <br>
+                    <label for="textarea">Message: </label>
+                    <br>
+                    <textarea id="textarea" maxlength="240" placeholder="Your message here" required class="input" cols="30" rows="10" maxlength="240"></textarea>
+                    <br>
+                    <input type="submit" value="Send message" class="submit">
+               </form>
+             </p>
+            </div>
+        </main>
+        <footer class="page-footer">
+            <p>Find me on</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="img/facebook.svg" alt="Facebook">
+                </a>
+                
+    
+                <a href="https://www.linkedin.com/in/sakshisinghthakur/" target="_blank">
+                    <img src="img/linkedin.svg" alt="Linkedin">
+                </a>
+                
+    
+                <a href="https://github.com/" target="_blank">
+                    <img src="img/github.svg" alt="Github">
+                </a>
+            </div>
+        </footer>
+        <script src="js/tota11y.min.js"></script>
+</html>
+
+
